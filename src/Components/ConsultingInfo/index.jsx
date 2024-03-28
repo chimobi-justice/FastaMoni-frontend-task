@@ -1,6 +1,6 @@
 const ConsultingInfo = () => {
     return (
-        <div className="bg-fastaColor-900 h-auto py-36">
+        <section className="bg-fastaColor-900 h-auto py-36">
             <div className="flex justify-between gap-4 w-4/5 mx-auto">
                 <div className="w-4/5 mx-auto text-white text-center border-r">
                    <div className="bg-fastaColor-500 inline-block p-3">
@@ -66,7 +66,7 @@ const ConsultingInfo = () => {
                    <p className="text-xs text-fastaColor-800">CONSULTING SOLUTIONS</p>
                 </div>                
             </div>
-        </div>
+        </section>
     )
 }
 

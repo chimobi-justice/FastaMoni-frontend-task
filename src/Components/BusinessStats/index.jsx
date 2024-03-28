@@ -1,6 +1,6 @@
 const BusinessStats = () => {
     return (
-        <div className="bg-white py-10">
+        <section className="bg-white py-10">
             <div className="flex relative -top-28 w-3/6 mx-auto">
                 <div className="bg-white shadow-xl p-12 text-center hover:bg-gray-200 hover:text-fastaColor-300">
                     <h3 className="font-bold text-sm">Business Growth</h3>
@@ -99,7 +99,7 @@ const BusinessStats = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

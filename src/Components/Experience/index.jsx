@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <div className="bg-fastaColor-600 h-auto py-10">
+        <section className="bg-fastaColor-600 h-auto py-10">
             <div className="text-center py-10">
                 <h2 className="text-white text-3xl uppercase font-bold mb-2">Real-World Experience</h2>
                 <p className="text-xs text-fastaColor-400 text-fastaColor-800">The best business consulting firm you can count on!</p>
@@ -74,7 +74,7 @@ const Experience = () => {
                     </svg>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

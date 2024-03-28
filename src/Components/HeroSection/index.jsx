@@ -2,7 +2,7 @@ import Button from "../Button";
 
 const HeroSection = () => {
     return (
-        <div className="bg-fastaColor-500 h-auto flex flex-col justify-center py-10">
+        <section className="bg-fastaColor-500 h-auto flex flex-col justify-center py-10">
             <div className="w-4/5 mx-auto">
                 <h4 className="text-xs text-white inline-block bg-fastaColor-100 p-1 mt-20 mb-5">
                     WELCOME TO CODESHAPER
@@ -18,7 +18,7 @@ const HeroSection = () => {
                     </Button>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

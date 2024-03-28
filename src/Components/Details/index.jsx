@@ -2,7 +2,7 @@ import { Progress } from "flowbite-react";
 
 const Details = () => {
     return (
-        <div className="border-gray-200 py-20">
+        <section className="border-gray-200 py-20">
             <div className="w-4/5 mx-auto flex items-start justify-between">
                 <div className="w-2/4">
                     <div className="bg-fastaColor-300 inline-block h-auto p-7 items-center">
@@ -50,7 +50,7 @@ const Details = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

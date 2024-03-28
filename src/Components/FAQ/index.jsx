@@ -2,7 +2,7 @@ import { Accordion } from "flowbite-react";
 
 const FAQ = () => {
     return (
-        <div className="bg-white h-auto py-10">
+        <section className="bg-white h-auto py-10">
             <div className="text-center py-10">
                 <h2 className="text-fastaColor-500 text-3xl uppercase font-bold mb-2">QUESTION ANSWERS</h2>
                 <p className="text-xs text-fastaColor-400 text-fastaColor-800">We help our clients renew their business</p>
@@ -107,7 +107,7 @@ const FAQ = () => {
                     </div>
                 </div>
             </div>   
-        </div>
+        </section>
     )
 }
 

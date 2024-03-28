@@ -1,6 +1,6 @@
 const Client = () => {
     return (
-        <div className="bg-fastaColor-700 h-auto py-16">
+        <section className="bg-fastaColor-700 h-auto py-16">
             <div className="w-4/5 mx-auto flex justify-between gap-5">
                 <div className="w-1/3">
                     <h1 className="text-4xl uppercase font-bold break-words whitespace-pre-line leading-10">
@@ -25,19 +25,19 @@ const Client = () => {
                     </div>
                 </div>
 
-                <div className="bg-white p-6 w-1/3">
+                <article className="bg-white p-6 w-1/3">
                     <p className="text-xs leading-6 text-fastaColor-800">Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum is simply free text dolor sit amet,consectetur notted adipisicing elit sed do eiusmod tempor</p>
                     <p className="text-fastaColor-300 font-semibold text-sm mt-3 mb-2">Todd Higgins</p>
                     <p className="text-xs font-base text-fastaColor-800">customer</p>
-                </div>
+                </article>
 
-                <div className="bg-white p-6 w-1/3">
+                <article className="bg-white p-6 w-1/3">
                     <p className="text-xs leading-6 text-fastaColor-800">Lorem ipsum is simply free text dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum is simply free text dolor sit amet,consectetur notted adipisicing elit sed do eiusmod tempor</p>
                     <p className="text-fastaColor-300 font-semibold text-sm mt-3 mb-2">Todd Higgins</p>
                     <p className="text-xs font-base text-fastaColor-800">customer</p>
-                </div>
+                </article>
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -1,6 +1,6 @@
 const CaseStudy = () => {
     return (
-        <div className="bg-fastaColor-700 h-auto py-10">
+        <section className="bg-fastaColor-700 h-auto py-10">
             <div className="flex relative -top-32 w-8/12 mx-auto">
                 <div className="bg-white shadow-xl p-12">
                     <div className="flex gap-3 p-3">
@@ -83,7 +83,7 @@ const CaseStudy = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
