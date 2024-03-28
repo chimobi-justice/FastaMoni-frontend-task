@@ -1,0 +1,4 @@
+.case_study_outer:hover .case_study_inner {
+    background-color: #3C72FC;
+    transition: .6s ease-in-out;
+}
